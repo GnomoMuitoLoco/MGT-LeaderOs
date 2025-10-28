@@ -99,6 +99,12 @@ dependencies {
     jarJar("org.json:json:20231013")
 
     compileOnly 'net.luckperms:api:5.4'
+
+    // ADIÇÃO: Cliente Java do Pusher — resolve os imports com package com.pusher.client
+    // Versão 2.2.6 é compatível com as APIs usadas no plugin original.
+    implementation 'com.pusher:pusher-java-client:2.2.6'
+    // Empacotar o cliente Pusher no fat-jar para evitar NoClassDefFoundError em runtime
+    jarJar('com.pusher:pusher-java-client:2.2.6')
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
