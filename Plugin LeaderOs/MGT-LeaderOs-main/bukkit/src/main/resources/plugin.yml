@@ -1,0 +1,26 @@
+name: LeaderOS
+authors: [leaderos]
+main: net.leaderos.plugin.Bukkit
+version: '${shared.version}'
+api-version: 1.13
+folia-supported: true
+softdepend: [PlaceholderAPI]
+commands:
+    leaderos:
+        description: Default command of leaderos
+    webstore:
+        description: WebStore module default command
+    credits:
+        description: Credits module command
+    creditvoucher:
+        description: Voucher module command
+    bazaar:
+        description: bazaar default command
+    discord-sync:
+        description: Sync your account with discord
+    donations:
+        description: Shows who donated server recently with
+    verify:
+        description: Verifies your Minecraft account
+    ai:
+        description: Generates an AI response based on the prompt

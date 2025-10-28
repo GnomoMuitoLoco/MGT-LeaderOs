@@ -1,0 +1,13 @@
+{
+  "mgtleaderos.command.reload.success": "Configuração do LeaderOS recarregada!",
+  "mgtleaderos.command.reload.failed": "Falha ao recarregar configuração!",
+  "mgtleaderos.command.check.start": "Verificando entregas pendentes...",
+  "mgtleaderos.command.check.complete": "Verificação de entregas concluída!",
+  "mgtleaderos.command.status.connected": "Conectado",
+  "mgtleaderos.command.status.disconnected": "Desconectado",
+  "mgtleaderos.command.test.testing": "Testando conexão com a API...",
+  "mgtleaderos.command.test.success": "Conexão estabelecida com sucesso!",
+  "mgtleaderos.command.test.failed": "Falha ao conectar!",
+  "mgtleaderos.delivery.received": "Você recebeu sua compra!"
+}
+

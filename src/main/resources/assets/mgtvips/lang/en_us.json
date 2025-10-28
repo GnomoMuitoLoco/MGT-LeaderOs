@@ -1,0 +1,12 @@
+{
+  "mgtleaderos.command.reload.success": "LeaderOS configuration reloaded!",
+  "mgtleaderos.command.reload.failed": "Failed to reload configuration!",
+  "mgtleaderos.command.check.start": "Checking for pending deliveries...",
+  "mgtleaderos.command.check.complete": "Delivery check complete!",
+  "mgtleaderos.command.status.connected": "Connected",
+  "mgtleaderos.command.status.disconnected": "Disconnected",
+  "mgtleaderos.command.test.testing": "Testing API connection...",
+  "mgtleaderos.command.test.success": "Connection successful!",
+  "mgtleaderos.command.test.failed": "Connection failed!",
+  "mgtleaderos.delivery.received": "You received your purchase!"
+}

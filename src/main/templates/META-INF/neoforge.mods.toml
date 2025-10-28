@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="mgtleaderos"
+version="1.0.0-SNAPSHOT"
+displayName="MGT-LeaderOs"
+authors="GnomoMuitoLoco"
+description='''Sistema de integração com LeaderOS para entrega automática de compras do site no jogo.'''
+
+[[dependencies.mgtleaderos]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.211,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mgtleaderos]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mgtleaderos]]
+modId="mgtcore"
+type="required"
+versionRange="[1.0.1-SNAPSHOT,)"
+ordering="AFTER"
+side="BOTH"
